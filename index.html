@@ -1,12 +1,206 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  </body>
-</html>
+<html>
+
+<head>
+    <title>Cameron Squire</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="animate.css">
+    <style>
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-color: deepskyblue;
+        }
+
+        .parallax {
+            background-image: url("cs_assets/img1.jpg");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .parallax3 {
+            background-image: url("cs_assets/img2.jpg");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .parallax4 {
+            background-image: url("cs_assets/img3.jpg");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .parallax5 {
+            background-image: url("https://i.gyazo.com/496ee0b4b6c073ace0df291059d3ab4f.png");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .parallax6 {
+            background-image: url("https://i.gyazo.com/67163b4207b27fba140410d3901812ee.png");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .parallax7 {
+            background-image: url("cs_assets/img6.jpg");
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        p,
+        h1,
+        h2,
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+        }
+
+        h1 {
+            font-size: 45px;
+            position: relative;
+            left: 50px;
+            font-weight: 300;
+        }
+
+        p.tagline {
+            position: relative;
+            left: 65px;
+            bottom: 35px;
+            animation-duration: 1.5s;
+
+        }
+
+        h2 {
+            font-size: 55px;
+            color: white;
+            position: relative;
+            left: 150px;
+            top: 100px;
+        }
+
+        h3 {
+            font-size: 55px;
+            color: white;
+            position: relative;
+            left: 150px;
+            top: 100px;
+        }
+
+        p.name {
+            color: white;
+            position: relative;
+            top: 70px;
+            left: 150px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .things {
+            position: relative;
+            background-color: white;
+            text-align: center;
+            color: black;
+            padding: 50px;
+            padding-bottom: 0px;
+            text-align: justify;
+            font-size: 35px;
+        }
+
+        .things2 {
+            position: relative;
+            background-color: white;
+            text-align: center;
+            color: black;
+            padding: 50px;
+            padding-top: 0px;
+            text-align: justify;
+            font-size: 25px;
+        }
+
+        h3.thx {
+            left: 0px;
+            top: 0px;
+        }
+
+        p.thx {
+            color: white;
+            position: relative;
+            top: 70px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="header">
+            <a href="index.html">
+                <h1 class="animated slideInLeft">camsqu.net</h1>
+            </a>
+            <p class="tagline animated slideInLeft">high key | low energy <b>3.0</b></p>
+        </div>
+        <div class="bigintro">
+            <h2 class="animated fadeInUp delay-1s">Hey there,</h2>
+            <p class="name">My name is Cameron Squire, I'm a Network Engineer, programmer, and overconfident "web developer".</p>
+        </div>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+    </div>
+    <div class="parallax2">
+        <div class="things">
+            <p class="things"><b>Things I'm into</b></p>
+            <p class="things2">include but are not limited to...</p>
+        </div>
+    </div>
+    <div class="parallax3">
+        <h3 class="cars">Cars</h3>
+        <p class="name">I mean, I live in California, how else would I get anywhere?</p>
+    </div>
+    <div class="parallax4">
+        <h3 class="scooters">Scooters</h3>
+        <p class="name">Too fast for the sidewalk, too slow for the street. Still fun though.</p>
+    </div>
+    <div class="parallax5">
+        <h3 class="prog">Programming</h3>
+        <p class="name">Being a developer is.. an experience? I guess so.</p>
+    </div>
+    <div class="parallax6">
+        <h3 class="net">Network Engineering</h3>
+        <p class="name">Yeah IPv6 is long and annoying, but it's better than subnetting.</p>
+    </div>
+    <div class="parallax7">
+        <h3 class="thx">Thanks for stopping by :)</h3>
+        <p class="thx">Come back any time, also, find my social media down below.</p>
+    </div>
+</body>
+
+</html>
